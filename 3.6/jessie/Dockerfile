@@ -1,4 +1,4 @@
-FROM        python:latest
+FROM        python:3.6-jessie
 
 # Install SQL server dependencies and drivers
 RUN         apt-get update \
